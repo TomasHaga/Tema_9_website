@@ -160,6 +160,7 @@ hr {
 }
 
 .two-images {
+  margin-top: 3rem;
   display: block;
   justify-items: center;
 }
@@ -195,7 +196,7 @@ hr {
   display: grid;
 
   grid-template-columns: 2fr;
-  gap: 1rem 0rem;
+  gap: 3rem 0rem;
 }
 
 article img {
@@ -318,6 +319,7 @@ article img {
   }
   .article-body {
     max-width: 60ch;
+    margin: auto;
   }
 
   .grid-five {
@@ -329,7 +331,7 @@ article img {
   }
 
   .two-images img {
-    max-height: 70vh;
+    max-height: 600px;
   }
 
   .portait {
@@ -338,6 +340,7 @@ article img {
 
   .grid-one {
     grid-template-columns: 1fr 1fr;
+    gap: 3rem 0rem;
   }
 
   .grid-one p:first-child {
@@ -357,8 +360,6 @@ article img {
   .grid-two p:first-child {
     grid-row: 1 / 2;
     grid-column: 2 / 2;
-
-    display: inline-grid;
   }
   .grid-two p:nth-child(2) {
     grid-row: 2 / 3;
@@ -372,6 +373,7 @@ article img {
 
   .grid-three {
     grid-template-columns: 1fr 1fr;
+    gap: 3rem 0rem;
   }
 
   .grid-three p:first-child {
@@ -406,6 +408,7 @@ article img {
     margin: auto;
     object-fit: cover;
     margin-bottom: 3rem;
+    margin-top: 3rem;
   }
 
   .byline {
