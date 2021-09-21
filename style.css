@@ -21,6 +21,7 @@
 
   --clr-black: hsl(0, 0%, 0%);
   --clr-primary: hsl(0, 0%, 28%);
+  --clr-primarylight: hsl(0, 0%, 35%);
   --clr-textclr: hsl(0, 0%, 100%);
   --clr-orange: hsl(34, 100%, 62%);
 }
@@ -51,16 +52,14 @@ h1 {
   top: 0;
   width: 100%;
   padding: 0.2rem;
-  background: #474747;
+  background: var(--clr-primarylight);
   z-index: 1;
-  border: var(--clr-orange);
 }
 
 .topnav > img {
   max-width: 3.125rem;
   max-height: 3.125rem;
   float: left;
-  margin-left: 1rem;
 }
 
 .topnav a {
