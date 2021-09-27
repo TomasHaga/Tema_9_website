@@ -72,7 +72,7 @@ h1 {
 }
 .topnav a:hover {
   background-color: var(--clr-orange);
-  color: white;
+  color: var(--clr-primary);
 }
 
 .header {
