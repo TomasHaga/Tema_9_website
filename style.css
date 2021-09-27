@@ -255,6 +255,7 @@ article img {
 .prev:hover,
 .next:hover {
   background-color: white;
+  color: var(--clr-primary);
 }
 
 .text {
